@@ -1,0 +1,15 @@
+body,
+html {
+
+	&.no-scroll {
+		overflow: hidden;
+		position: fixed;
+	}
+
+
+	@include media-breakpoint-down(sm) {
+		//font-size: $font-size-base - 2;
+
+	}
+
+}

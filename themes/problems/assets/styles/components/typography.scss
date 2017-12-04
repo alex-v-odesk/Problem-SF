@@ -1,0 +1,36 @@
+//Letter Spacing
+//
+
+.ls-0 {
+	letter-spacing: 0.05em;
+}
+
+.ls-1 {
+	letter-spacing: 0.1em;
+}
+
+.ls-2 {
+	letter-spacing: 0.2em;
+}
+
+// Smart Underline
+// 
+
+u,
+.text-underline,
+.text-underline-smart,
+*[style*=underline] {
+	text-decoration: none !important;
+	text-shadow: 1px 0 0 $body-bg, -1px 0 0 $body-bg;
+	background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+	background-repeat: repeat-x;
+	background-position: 0 91%;
+	-webkit-background-size: 100% 1px;
+	background-size: 100% 1px;
+}
+
+.no-underline {
+	text-decoration: none;
+	text-shadow: 0 !important;
+	background-image: none;
+}

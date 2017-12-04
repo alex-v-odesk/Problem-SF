@@ -1,0 +1,40 @@
+/*********************************************
+	* FONTS 
+	* List all your custom fonts here
+	* each in their own parenthesis
+	*
+	*
+	* 1) $font_family
+	* 2) $file_name
+	* 3) Weight
+	* 4) Style
+
+*********************************************/
+
+$fonts: 
+	('Calendas' calendas_plus-webfont normal normal),
+;
+
+/*********************************************
+	*CREATE THE @FONT-FACE DECLARATIONS
+*********************************************/
+@each 
+	$font_family, 
+	$file_name, 
+	$weight, 
+	$style 
+	
+	in $fonts {
+
+	@font-face {
+		font-family: $font_family;
+		src: url('../fonts/#{$file_name}.eot');
+		src: url('../fonts/#{$file_name}.eot?#iefix') format('embedded-opentype');
+		src: url('../fonts/#{$file_name}.woff') format('woff'), 
+			 url('../fonts/#{$file_name}.woff') format('woff'), 
+		     url('../fonts/#{$file_name}.ttf')  format('truetype'); 
+		font-weight: $weight;
+		font-style: $style;     
+	}
+	
+}

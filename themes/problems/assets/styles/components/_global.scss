@@ -1,0 +1,9 @@
+* {
+
+	&:hover,
+	&:focus,
+	&:active {
+		outline: none !important;
+		-moz-outline: none !important;
+	}
+}

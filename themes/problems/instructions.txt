@@ -1,0 +1,3 @@
+npm install
+bower install
+npm install compass-mixins --save-dev

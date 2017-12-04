@@ -1,0 +1,76 @@
+body.login-action-login.wp-core-ui {
+
+	* {
+		&:active,
+		&:focus {
+			outline: none !important;
+		}
+	}
+
+	#login {
+		width: 90%;
+		max-width: 600px;
+	}
+
+
+    #login h1 a, 
+    .login h1 a {
+	    background-image: url('../images/_svg/logo.svg');
+		height:0;
+		padding-bottom: 30%;
+		width: 100%;
+		background-size: contain;
+		background-position: right center;
+		background-repeat: no-repeat;
+		z-index: 2;
+		position: relative;
+    }
+
+
+	#loginform {
+		position: relative;
+		z-index: 1;
+		//background: $white;
+		border: 0;
+		padding-top: 80px;
+		box-shadow: none !important;
+
+		label {
+			display: inline-block;
+			width: 100%;
+			margin-bottom: $spacer*2;
+		}
+
+		input[type="text"],
+		input[type="password"],
+		input[type="checkbox"] {
+			@extend .form-control;
+
+			&:checked:before {
+
+			}
+		}
+
+		input[type="submit"] {
+
+			&:hover {
+
+			}
+		}
+	}
+
+	
+	p#nav {
+		text-align: center;
+
+		a:hover {
+
+
+		}
+	}
+
+	#backtoblog {
+		display: none;
+	}
+
+}

@@ -1,0 +1,17 @@
+{
+  "name": "hair-template",
+  "homepage": "github.com/team-hair/hair-shampoo-and-rinse.git/",
+  "authors": [
+    "team Hair <curly@team-hair.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "slick-carousel": "slick.js#^1.6.0",
+    "include-media": "^1.4.8",
+    "matchHeight": "^0.7.0",
+    "lazyloadxt": "^1.0.5",
+    "jquery.cookie": "^1.4.1",
+    "sticky-kit": "^1.1.2"
+  }
+}

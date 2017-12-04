@@ -1,0 +1,29 @@
+// Center Vertical & Horizontal
+@mixin center-both {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	@include translate(-50%, -50%);
+}
+
+// Center Vertical
+@mixin center-vertical {
+	position: absolute;
+	top: 50%;
+	@include translateY(-50%);
+}
+
+// Center Horizontal
+@mixin center-horizontal {
+	position: absolute;
+	left: 50%;
+	@include translateX(-50%);
+}
+
+// Center None
+@mixin center-none {
+	position: relative;
+	left: 0%;
+	top: 0%;
+	@include translate(0%, 0%);
+}

@@ -1,0 +1,17 @@
+@import "compass";
+@import "common/custom-fonts";
+@import "../../bower_components/bootstrap/scss/functions";
+@import "common/variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+@import "../../bower_components/slick-carousel/slick/slick.scss";
+@import "../../bower_components/include-media/dist/_include-media.scss";
+// endbower
+// 
+
+@import "common/_variables/custom";
+@import "mixins/*";
+@import "components/*";
+@import "layouts/*";
